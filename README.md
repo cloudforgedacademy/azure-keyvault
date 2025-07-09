@@ -49,3 +49,17 @@ az keyvault create \
   --location $LOCATION \
   --sku standard \
   --enable-soft-delete true
+
+## 📬 Contact
+
+**Oluseyi Sunny-Okundia**
+Cloud Engineer | YouTube: [Cloudforged with Seyi](https://www.youtube.com/@cloudforgedwithseyi)
+📧 [oluseyi@cloudforgedacademy.ca](mailto:oluseyi@cloudforgedacademy.ca)
+
+---
+
+## 📄 License
+
+MIT License. Use at your own discretion.
+
+```
