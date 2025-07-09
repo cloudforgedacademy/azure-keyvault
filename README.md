@@ -44,12 +44,14 @@ KEYVAULT_NAME="kv-simple-001"
 az group create --name $RESOURCE_GROUP --location $LOCATION
 
 # Deploy Key Vault
+```bash
 az keyvault create \
   --name $KEYVAULT_NAME \
   --resource-group $RESOURCE_GROUP \
   --location $LOCATION \
   --sku standard \
   --enable-soft-delete true
+```
 ---
 ## 📬 Contact
 
