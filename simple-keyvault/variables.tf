@@ -14,9 +14,3 @@ variable "kvtrgname01" {}
 #variable "user1" {}
 variable "user2" {}
 #variable "user3" {}
-
-
-#PRIVATE ENDPOINT
-variable "pepname" {}
-// variable "peplocation" {}
-variable "pep_connection_name" {}
