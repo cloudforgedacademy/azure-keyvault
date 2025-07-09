@@ -39,6 +39,7 @@ RESOURCE_GROUP="rg-keyvault-simple"
 LOCATION="canadaeast"
 KEYVAULT_NAME="kv-simple-001"
 
+ ```
 # Create resource group
 az group create --name $RESOURCE_GROUP --location $LOCATION
 
@@ -49,7 +50,7 @@ az keyvault create \
   --location $LOCATION \
   --sku standard \
   --enable-soft-delete true
-
+---
 ## 📬 Contact
 
 **Oluseyi Sunny-Okundia**
